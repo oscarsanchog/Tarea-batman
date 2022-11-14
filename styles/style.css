@@ -1,0 +1,43 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* header */
+header div{
+    background-color: #e6e6e6;
+    text-align: center;
+}
+
+/* main */
+h1{
+    text-transform: uppercase;
+    color: #005677;
+    font-size: 35px;
+    text-align: center;
+    background-color: #c4c4c4;
+    letter-spacing: 10px;
+}
+
+h2{
+    text-transform: uppercase;
+    color: #005677;
+    font-size: 20px;   
+    background-color: #c4c4c4 ; 
+    letter-spacing: 5px;
+}
+
+/* Footer */
+footer div{
+    background-color: #005677;
+    text-align: center;
+    color: white;
+}
+
+footer div span{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+footer a{
+    color: white
+}
