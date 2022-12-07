@@ -1,0 +1,53 @@
+$bg1: #005677;
+$bg2: #c4c4c4;
+$bg3: #e6e6e6;
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    div {
+        background-color: $bg3;
+        text-align: center;
+    }
+}
+
+main {
+    h1 {
+        text-transform: uppercase;
+        color: $bg1;
+        font-size: 35px;
+        text-align: center;
+        background-color: $bg2;
+        letter-spacing: 10px;
+    }
+    h2{
+        text-transform: uppercase;
+        color: $bg1;
+        font-size: 20px;   
+        background-color: $bg2; 
+        letter-spacing: 5px;
+    }
+    .universidad {
+        display: flex;
+        align-items: center;
+    }    
+}
+
+footer {
+    div{
+        background-color: $bg1;
+        text-align: center;
+        color: white;
+        span {
+            text-transform: uppercase;
+            font-size: 20px;
+        }
+        a {
+            color: white
+        }
+    }
+}
